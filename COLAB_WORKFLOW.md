@@ -50,8 +50,8 @@ import os
 GITHUB_TOKEN = userdata.get('GITHUB_TOKEN')
 USER_EMAIL = userdata.get('USER_EMAIL')
 USER_NAME = userdata.get('USER_NAME')
-REPO_URL = "https://github.com/USERNAME/REPO_NAME.git" # 自分のリポジトリURLに変更
-REPO_NAME = "REPO_NAME"
+REPO_URL = "https://github.com/Ryutta/signate_practice_bank.git"
+REPO_NAME = "signate_practice_bank"
 
 # Git の設定
 !git config --global user.email "$USER_EMAIL"
